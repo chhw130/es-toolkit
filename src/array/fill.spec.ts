@@ -39,4 +39,9 @@ describe('fill', () => {
     const result = fill([1, 2, 3, 4, 5], '*', -4, -1);
     expect(result).toEqual([1, '*', '*', '*', 5]);
   });
+
+  it('test', () => {
+    const result = fill([1, 2, 3], []);
+    expect(result).toEqual([[], [], []]);
+  });
 });

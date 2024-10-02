@@ -262,6 +262,10 @@ describe('cloneDeep', () => {
       return cloneDeep(value).a === 1;
     });
 
+    console.log(expected);
+    console.log(values);
+    console.log(actual);
+
     expect(actual).toEqual(expected);
   });
 });

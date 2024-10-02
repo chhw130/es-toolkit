@@ -10,6 +10,8 @@ export default defineConfig({
       include: ['src/**/*'],
       exclude: ['src/compat/_internal/**/*'],
     },
+    environment: ,
+
     watch: false,
   },
 });
